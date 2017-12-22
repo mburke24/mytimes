@@ -23,10 +23,7 @@ header{
     display: flex;
     flex-direction: column;
     margin-right: 32px;
-    margin-left:  0;
-    justify-content: flex-start;
-    
-  }
+    }
   .Column.medium{
     width: 300px;
     display: flex;
@@ -63,20 +60,20 @@ nav span{
   .my{
     align-self: center;
   }
-
-.image-content{
-  background:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png) no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  font-family: Georgia;
-  font-weight: bold;
+.lead-story .image-content{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png) no-repeat;
+  width: 630px;
+  margin-top: 0;
   font-size: 40px;
   text-align: left;
+}
+.image-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Georgia;
+  font-weight: bold;
   color: white;
-  width: 600px;
-  margin-top: 0;
-  flex-wrap: wrap;
   height: 300px;
     }
 h2{
@@ -154,7 +151,7 @@ p{
 }
 
 .column.small{
-  width:240px;
+  width: 240px;
   display: flex; 
   flex-direction: column;
   margin-right: 32px;
@@ -190,6 +187,15 @@ p{
   background-color: WhiteSmoke;
   font-family: verdana;
   color: DimGray;
+  }
+  .bite{
+    display: block;
+    padding: 11px 20px;
+    border-bottom: 1px solid black;
+    background-color: WhiteSmoke;
+    font-family: Verdana;
+    font-size: 12px;
+    color: DimGray;
   }
 footer{
   display: flex;
