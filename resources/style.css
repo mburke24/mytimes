@@ -21,7 +21,7 @@ header{
     width: 630px;
     display: flex;
     flex-direction: column;
-    margin-right: 30px;
+    margin-right: 32px;
     }
   .Column.medium{
     width: 300px;
@@ -42,7 +42,7 @@ header{
   align-items: center;
 }
 .logo span{
-color: MediumAquamarine;
+   color: MediumAquamarine;
 }
 
 nav{
@@ -57,20 +57,10 @@ nav span{
   }
 .lead-story {
   display: block;
-  font-family: Georgia;
-  font-size: 17px;
-  height: 523px;
-  width: 630px;
-}
-.lead-story .image-content{
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png) no-repeat;
-width: 630px;
-margin-top: 0;
-font-size: 40px;
-text-align: left;
-}
+  }
 
 .image-content{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png) no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -78,17 +68,13 @@ text-align: left;
   font-weight: bold;
   color: white;
   height: 300px;
-  
+  width: 630px;
   font-size: 40px;
   text-align: left;
+  margin-top: 0;
   
   }
-  .image-content span{
-    margin-left: 20px;
-    text-align: left;
-    display: block;
-    width: 610;
-  }
+  
   .stories{
     display: flex;
     justify-content: space-between;
@@ -120,6 +106,7 @@ text-align: left;
   display: block;
   height:300px;
   width:105;
+  margin-right: 32px;
 }
 .narrative {
   margin-top: 16px;
